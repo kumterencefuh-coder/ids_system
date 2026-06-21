@@ -1,0 +1,28 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large model/data files (too big for GitHub)
+*.pkl
+*.h5
+*.keras
+*.joblib
+*.csv
+*.zip
+*.parquet
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Crash and build logs
+*.log
+hs_err_pid*.log
+replay_pid*.log
